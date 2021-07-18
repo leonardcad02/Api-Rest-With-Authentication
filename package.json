@@ -1,0 +1,36 @@
+{
+  "name": "api-rest-with-authentication",
+  "version": "1.0.0",
+  "description": "Create Api-Rest with Passport and Moogoose db",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardcad02/Api-Rest-With-Authentication.git"
+  },
+  "keywords": [
+    "Api-Rest",
+    "-",
+    "MongooDb"
+  ],
+  "author": "Cristian Leonardo Cárdenas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leonardcad02/Api-Rest-With-Authentication/issues"
+  },
+  "homepage": "https://github.com/leonardcad02/Api-Rest-With-Authentication#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "express-session": "^1.17.2",
+    "mongoose": "^5.13.3",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
